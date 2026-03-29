@@ -221,7 +221,7 @@ def assemble_skill(fingerprint, pos_examples, neg_examples, annotations):
 # ─── Generate + ROUGE ────────────────────────────────────────────────────────
 
 def generate(skill, title, intro):
-    intro_block = f"\nIntroduction:\n{intro}" if intro.strip() else ""
+    intro_block = f"\nOpening of introduction:\n{intro[:400]}..." if intro.strip() else ""
     msg = (f'Write a research paper abstract for the following paper, '
            f'in the writing style of {AUTHOR_LABEL}:\n\n'
            f'Paper title: "{title}"{intro_block}\n\nOutput only the abstract text.')
@@ -235,7 +235,7 @@ def generate(skill, title, intro):
 
 
 def generate_zero_shot(title, intro):
-    intro_block = f"\nIntroduction:\n{intro}" if intro.strip() else ""
+    intro_block = f"\nOpening of introduction:\n{intro[:400]}..." if intro.strip() else ""
     msg = (f'Write a research paper abstract for the following paper, '
            f'in the writing style of {AUTHOR_LABEL}:\n\n'
            f'Paper title: "{title}"{intro_block}\n\nOutput only the abstract text.')

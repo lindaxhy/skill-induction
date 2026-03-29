@@ -10,14 +10,14 @@
       "eval_id": "2402.05070",
       "title": "Position: A Roadmap to Pluralistic Alignment",
       "zero_shot": {
-        "rouge1": 0.4732,
-        "rouge2": 0.1275,
-        "rougeL": 0.2537
+        "rouge1": 0.3543,
+        "rouge2": 0.092,
+        "rougeL": 0.1829
       },
       "skill_based": {
-        "rouge1": 0.4657,
-        "rouge2": 0.1429,
-        "rougeL": 0.2598
+        "rouge1": 0.3952,
+        "rouge2": 0.092,
+        "rougeL": 0.1783
       }
     },
     {
@@ -25,14 +25,14 @@
       "eval_id": "2410.03868",
       "title": "Can Language Models Reason about Individualistic Human Values and Preferences?",
       "zero_shot": {
-        "rouge1": 0.5415,
-        "rouge2": 0.1275,
-        "rougeL": 0.239
+        "rouge1": 0.3753,
+        "rouge2": 0.0539,
+        "rougeL": 0.1662
       },
       "skill_based": {
-        "rouge1": 0.5271,
-        "rouge2": 0.156,
-        "rougeL": 0.2588
+        "rouge1": 0.396,
+        "rouge2": 0.0796,
+        "rougeL": 0.1733
       }
     },
     {
@@ -40,14 +40,14 @@
       "eval_id": "2510.06084",
       "title": "Spectrum Tuning: Post-Training for Distributional Coverage and In-Context Steerability",
       "zero_shot": {
-        "rouge1": 0.539,
-        "rouge2": 0.2228,
-        "rougeL": 0.2569
+        "rouge1": 0.4167,
+        "rouge2": 0.1285,
+        "rougeL": 0.1722
       },
       "skill_based": {
-        "rouge1": 0.5083,
-        "rouge2": 0.1909,
-        "rougeL": 0.2423
+        "rouge1": 0.3384,
+        "rouge2": 0.0964,
+        "rougeL": 0.1364
       }
     },
     {
@@ -55,27 +55,27 @@
       "eval_id": "2510.07105",
       "title": "Opt-ICL at LeWiDi-2025: Maximizing In-Context Signal from Rater Examples via Meta-Learning",
       "zero_shot": {
-        "rouge1": 0.5622,
-        "rouge2": 0.1685,
-        "rougeL": 0.2541
+        "rouge1": 0.3448,
+        "rouge2": 0.0631,
+        "rougeL": 0.1755
       },
       "skill_based": {
-        "rouge1": 0.4293,
-        "rouge2": 0.1366,
-        "rougeL": 0.1957
+        "rouge1": 0.3671,
+        "rouge2": 0.0661,
+        "rougeL": 0.1808
       }
     }
   ],
   "summary": {
     "zero_shot": {
-      "rouge1": 0.528975,
-      "rouge2": 0.161575,
-      "rougeL": 0.250925
+      "rouge1": 0.372775,
+      "rouge2": 0.084375,
+      "rougeL": 0.1742
     },
     "skill_based": {
-      "rouge1": 0.48260000000000003,
-      "rouge2": 0.1566,
-      "rougeL": 0.23914999999999997
+      "rouge1": 0.374175,
+      "rouge2": 0.083525,
+      "rougeL": 0.1672
     }
   }
 }

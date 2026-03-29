@@ -234,7 +234,7 @@ def assemble_skill(author: str, fingerprint: str,
 # ─── Evaluation: generate abstracts from titles, compute ROUGE ───────────────
 
 def generate_abstract(skill: str, title: str, intro: str, author: str) -> str:
-    intro_block = f"\nIntroduction:\n{intro}" if intro.strip() else ""
+    intro_block = f"\nOpening of introduction:\n{intro[:400]}..." if intro.strip() else ""
     user_msg = (
         f'Write a research paper abstract for the following paper, '
         f'in the writing style of {author}:\n\n'
@@ -254,7 +254,7 @@ def generate_abstract(skill: str, title: str, intro: str, author: str) -> str:
 
 
 def generate_abstract_zero_shot(title: str, intro: str, author: str) -> str:
-    intro_block = f"\nIntroduction:\n{intro}" if intro.strip() else ""
+    intro_block = f"\nOpening of introduction:\n{intro[:400]}..." if intro.strip() else ""
     user_msg = (
         f'Write a research paper abstract for the following paper, '
         f'in the writing style of {author}:\n\n'
