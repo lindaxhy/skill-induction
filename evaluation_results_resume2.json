@@ -1,0 +1,304 @@
+{
+  "zero_shot": {
+    "accuracy": 0.695,
+    "macro_f1": 0.627,
+    "failures": 2,
+    "per_category": {
+      "INFORMATION-TECHNOLOGY": {
+        "precision": 0.556,
+        "recall": 1.0,
+        "f1": 0.714,
+        "support": 10
+      },
+      "BUSINESS-DEVELOPMENT": {
+        "precision": 0.588,
+        "recall": 1.0,
+        "f1": 0.741,
+        "support": 10
+      },
+      "ADVOCATE": {
+        "precision": 1.0,
+        "recall": 0.222,
+        "f1": 0.364,
+        "support": 9
+      },
+      "CHEF": {
+        "precision": 1.0,
+        "recall": 0.7,
+        "f1": 0.824,
+        "support": 10
+      },
+      "FINANCE": {
+        "precision": 1.0,
+        "recall": 0.889,
+        "f1": 0.941,
+        "support": 9
+      },
+      "ENGINEERING": {
+        "precision": 0.8,
+        "recall": 0.8,
+        "f1": 0.8,
+        "support": 10
+      },
+      "ACCOUNTANT": {
+        "precision": 0.769,
+        "recall": 1.0,
+        "f1": 0.87,
+        "support": 10
+      },
+      "FITNESS": {
+        "precision": 0.8,
+        "recall": 0.444,
+        "f1": 0.571,
+        "support": 9
+      },
+      "AVIATION": {
+        "precision": 0.8,
+        "recall": 0.444,
+        "f1": 0.571,
+        "support": 9
+      },
+      "SALES": {
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.667,
+        "support": 9
+      },
+      "HEALTHCARE": {
+        "precision": 0.429,
+        "recall": 0.667,
+        "f1": 0.522,
+        "support": 9
+      },
+      "CONSULTANT": {
+        "precision": 0.818,
+        "recall": 1.0,
+        "f1": 0.9,
+        "support": 9
+      },
+      "BANKING": {
+        "precision": 0.667,
+        "recall": 0.444,
+        "f1": 0.533,
+        "support": 9
+      },
+      "CONSTRUCTION": {
+        "precision": 1.0,
+        "recall": 0.778,
+        "f1": 0.875,
+        "support": 9
+      },
+      "PUBLIC-RELATIONS": {
+        "precision": 0.667,
+        "recall": 0.889,
+        "f1": 0.762,
+        "support": 9
+      },
+      "HR": {
+        "precision": 0.75,
+        "recall": 1.0,
+        "f1": 0.857,
+        "support": 9
+      },
+      "DESIGNER": {
+        "precision": 0.889,
+        "recall": 0.889,
+        "f1": 0.889,
+        "support": 9
+      },
+      "ARTS": {
+        "precision": 1.0,
+        "recall": 0.125,
+        "f1": 0.222,
+        "support": 8
+      },
+      "TEACHER": {
+        "precision": 0.545,
+        "recall": 0.75,
+        "f1": 0.632,
+        "support": 8
+      },
+      "APPAREL": {
+        "precision": 1.0,
+        "recall": 0.125,
+        "f1": 0.222,
+        "support": 8
+      },
+      "DIGITAL-MEDIA": {
+        "precision": 0.833,
+        "recall": 0.625,
+        "f1": 0.714,
+        "support": 8
+      },
+      "AGRICULTURE": {
+        "precision": 1.0,
+        "recall": 0.4,
+        "f1": 0.571,
+        "support": 5
+      },
+      "AUTOMOBILE": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 3
+      },
+      "BPO": {
+        "precision": 0.2,
+        "recall": 0.5,
+        "f1": 0.286,
+        "support": 2
+      }
+    }
+  },
+  "skill_based": {
+    "accuracy": 0.74,
+    "macro_f1": 0.675,
+    "failures": 0,
+    "per_category": {
+      "INFORMATION-TECHNOLOGY": {
+        "precision": 0.625,
+        "recall": 1.0,
+        "f1": 0.769,
+        "support": 10
+      },
+      "BUSINESS-DEVELOPMENT": {
+        "precision": 0.667,
+        "recall": 1.0,
+        "f1": 0.8,
+        "support": 10
+      },
+      "ADVOCATE": {
+        "precision": 0.556,
+        "recall": 0.556,
+        "f1": 0.556,
+        "support": 9
+      },
+      "CHEF": {
+        "precision": 1.0,
+        "recall": 0.8,
+        "f1": 0.889,
+        "support": 10
+      },
+      "FINANCE": {
+        "precision": 0.889,
+        "recall": 0.889,
+        "f1": 0.889,
+        "support": 9
+      },
+      "ENGINEERING": {
+        "precision": 0.8,
+        "recall": 0.8,
+        "f1": 0.8,
+        "support": 10
+      },
+      "ACCOUNTANT": {
+        "precision": 0.833,
+        "recall": 1.0,
+        "f1": 0.909,
+        "support": 10
+      },
+      "FITNESS": {
+        "precision": 0.8,
+        "recall": 0.444,
+        "f1": 0.571,
+        "support": 9
+      },
+      "AVIATION": {
+        "precision": 0.857,
+        "recall": 0.667,
+        "f1": 0.75,
+        "support": 9
+      },
+      "SALES": {
+        "precision": 0.643,
+        "recall": 1.0,
+        "f1": 0.783,
+        "support": 9
+      },
+      "HEALTHCARE": {
+        "precision": 0.6,
+        "recall": 0.667,
+        "f1": 0.632,
+        "support": 9
+      },
+      "CONSULTANT": {
+        "precision": 0.889,
+        "recall": 0.889,
+        "f1": 0.889,
+        "support": 9
+      },
+      "BANKING": {
+        "precision": 0.714,
+        "recall": 0.556,
+        "f1": 0.625,
+        "support": 9
+      },
+      "CONSTRUCTION": {
+        "precision": 1.0,
+        "recall": 0.778,
+        "f1": 0.875,
+        "support": 9
+      },
+      "PUBLIC-RELATIONS": {
+        "precision": 0.667,
+        "recall": 0.889,
+        "f1": 0.762,
+        "support": 9
+      },
+      "HR": {
+        "precision": 0.75,
+        "recall": 1.0,
+        "f1": 0.857,
+        "support": 9
+      },
+      "DESIGNER": {
+        "precision": 0.9,
+        "recall": 1.0,
+        "f1": 0.947,
+        "support": 9
+      },
+      "ARTS": {
+        "precision": 1.0,
+        "recall": 0.125,
+        "f1": 0.222,
+        "support": 8
+      },
+      "TEACHER": {
+        "precision": 0.583,
+        "recall": 0.875,
+        "f1": 0.7,
+        "support": 8
+      },
+      "APPAREL": {
+        "precision": 1.0,
+        "recall": 0.25,
+        "f1": 0.4,
+        "support": 8
+      },
+      "DIGITAL-MEDIA": {
+        "precision": 0.714,
+        "recall": 0.625,
+        "f1": 0.667,
+        "support": 8
+      },
+      "AGRICULTURE": {
+        "precision": 1.0,
+        "recall": 0.4,
+        "f1": 0.571,
+        "support": 5
+      },
+      "AUTOMOBILE": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 3
+      },
+      "BPO": {
+        "precision": 0.25,
+        "recall": 0.5,
+        "f1": 0.333,
+        "support": 2
+      }
+    }
+  }
+}

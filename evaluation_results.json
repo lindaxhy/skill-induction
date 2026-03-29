@@ -1,0 +1,398 @@
+{
+  "A_few_shot": {
+    "content": {
+      "qwk": 0.044,
+      "pearson": 0.086,
+      "mae": 1.035
+    },
+    "organization": {
+      "qwk": 0.091,
+      "pearson": 0.23,
+      "mae": 1.072
+    },
+    "language": {
+      "qwk": 0.133,
+      "pearson": 0.264,
+      "mae": 0.857
+    },
+    "total": {
+      "pearson": 0.205,
+      "mae": 2.886
+    }
+  },
+  "B_contrastive": {
+    "content": {
+      "qwk": 0.038,
+      "pearson": 0.065,
+      "mae": 0.985
+    },
+    "organization": {
+      "qwk": 0.09,
+      "pearson": 0.201,
+      "mae": 1.092
+    },
+    "language": {
+      "qwk": 0.161,
+      "pearson": 0.259,
+      "mae": 0.803
+    },
+    "total": {
+      "pearson": 0.191,
+      "mae": 2.818
+    }
+  },
+  "C_iterative": {
+    "content": {
+      "qwk": 0.04,
+      "pearson": 0.052,
+      "mae": 0.818
+    },
+    "organization": {
+      "qwk": 0.022,
+      "pearson": 0.039,
+      "mae": 0.93
+    },
+    "language": {
+      "qwk": 0.187,
+      "pearson": 0.234,
+      "mae": 0.671
+    },
+    "total": {
+      "pearson": 0.117,
+      "mae": 2.327
+    }
+  },
+  "D_example": {
+    "content": {
+      "qwk": 0.017,
+      "pearson": 0.024,
+      "mae": 1.066,
+      "pred_mean": 2.765,
+      "pred_std": 0.833,
+      "true_mean": 3.546,
+      "true_std": 0.86
+    },
+    "organization": {
+      "qwk": -0.003,
+      "pearson": -0.004,
+      "mae": 1.033,
+      "pred_mean": 2.868,
+      "pred_std": 0.833,
+      "true_mean": 3.529,
+      "true_std": 0.88
+    },
+    "language": {
+      "qwk": 0.13,
+      "pearson": 0.168,
+      "mae": 0.842,
+      "pred_mean": 2.761,
+      "pred_std": 0.787,
+      "true_mean": 3.327,
+      "true_std": 0.716
+    },
+    "total": {
+      "pearson": 0.043,
+      "mae": 2.893,
+      "pred_mean": 8.395,
+      "pred_std": 2.374,
+      "true_mean": 10.401,
+      "true_std": 2.31
+    }
+  },
+  "E_combined": {
+    "content": {
+      "qwk": -0.023,
+      "pearson": -0.046,
+      "mae": 1.329,
+      "pred_mean": 2.349,
+      "pred_std": 0.83,
+      "true_mean": 3.546,
+      "true_std": 0.86
+    },
+    "organization": {
+      "qwk": -0.017,
+      "pearson": -0.028,
+      "mae": 1.186,
+      "pred_mean": 2.583,
+      "pred_std": 0.764,
+      "true_mean": 3.529,
+      "true_std": 0.88
+    },
+    "language": {
+      "qwk": 0.088,
+      "pearson": 0.12,
+      "mae": 0.836,
+      "pred_mean": 2.724,
+      "pred_std": 0.692,
+      "true_mean": 3.327,
+      "true_std": 0.716
+    },
+    "total": {
+      "pearson": -0.013,
+      "mae": 3.276,
+      "pred_mean": 7.656,
+      "pred_std": 2.126,
+      "true_mean": 10.401,
+      "true_std": 2.31
+    }
+  },
+  "F_rubric_5shot": {
+    "content": {
+      "qwk": 0.191,
+      "pearson": 0.255,
+      "mae": 0.961,
+      "pred_mean": 2.814,
+      "pred_std": 0.933,
+      "true_mean": 3.546,
+      "true_std": 0.86
+    },
+    "organization": {
+      "qwk": 0.15,
+      "pearson": 0.215,
+      "mae": 1.033,
+      "pred_mean": 2.715,
+      "pred_std": 0.871,
+      "true_mean": 3.529,
+      "true_std": 0.88
+    },
+    "language": {
+      "qwk": 0.153,
+      "pearson": 0.26,
+      "mae": 0.923,
+      "pred_mean": 2.491,
+      "pred_std": 0.699,
+      "true_mean": 3.327,
+      "true_std": 0.716
+    },
+    "total": {
+      "pearson": 0.252,
+      "mae": 2.842,
+      "pred_mean": 8.02,
+      "pred_std": 2.454,
+      "true_mean": 10.401,
+      "true_std": 2.31
+    }
+  },
+  "paper_A_zeroshot": {
+    "content": {
+      "qwk": 0.15,
+      "pearson": 0.201,
+      "mae": 0.956,
+      "pred_mean": 2.836,
+      "pred_std": 0.87,
+      "true_mean": 3.546,
+      "true_std": 0.86
+    },
+    "organization": {
+      "qwk": 0.084,
+      "pearson": 0.141,
+      "mae": 1.147,
+      "pred_mean": 2.57,
+      "pred_std": 0.772,
+      "true_mean": 3.529,
+      "true_std": 0.88
+    },
+    "language": {
+      "qwk": 0.113,
+      "pearson": 0.224,
+      "mae": 1.072,
+      "pred_mean": 2.338,
+      "pred_std": 0.701,
+      "true_mean": 3.327,
+      "true_std": 0.716
+    },
+    "total": {
+      "pearson": 0.188,
+      "mae": 3.101,
+      "pred_mean": 7.743,
+      "pred_std": 2.29,
+      "true_mean": 10.401,
+      "true_std": 2.31
+    }
+  },
+  "paper_A_0513_456": {
+    "content": {
+      "qwk": 0.144,
+      "pearson": 0.188,
+      "mae": 0.919,
+      "pred_mean": 2.895,
+      "pred_std": 0.821,
+      "true_mean": 3.546,
+      "true_std": 0.846
+    },
+    "organization": {
+      "qwk": 0.094,
+      "pearson": 0.168,
+      "mae": 1.067,
+      "pred_mean": 2.604,
+      "pred_std": 0.733,
+      "true_mean": 3.559,
+      "true_std": 0.795
+    },
+    "language": {
+      "qwk": 0.092,
+      "pearson": 0.225,
+      "mae": 1.147,
+      "pred_mean": 2.248,
+      "pred_std": 0.611,
+      "true_mean": 3.355,
+      "true_std": 0.698
+    },
+    "total": {
+      "pearson": 0.2,
+      "mae": 3.019,
+      "pred_mean": 7.747,
+      "pred_std": 2.105,
+      "true_mean": 10.461,
+      "true_std": 2.165
+    }
+  },
+  "std_200_gpt4o": {
+    "content": {
+      "qwk": 0.389,
+      "pearson": 0.499,
+      "mae": 0.816,
+      "pred_mean": 2.583,
+      "pred_std": 0.648,
+      "true_mean": 3.026,
+      "true_std": 1.088
+    },
+    "organization": {
+      "qwk": 0.277,
+      "pearson": 0.457,
+      "mae": 0.967,
+      "pred_mean": 2.16,
+      "pred_std": 0.626,
+      "true_mean": 3.001,
+      "true_std": 1.01
+    },
+    "language": {
+      "qwk": 0.36,
+      "pearson": 0.611,
+      "mae": 0.892,
+      "pred_mean": 1.978,
+      "pred_std": 0.586,
+      "true_mean": 2.785,
+      "true_std": 0.914
+    },
+    "total": {
+      "pearson": 0.578,
+      "mae": 2.497,
+      "pred_mean": 6.72,
+      "pred_std": 1.809,
+      "true_mean": 8.813,
+      "true_std": 2.813
+    }
+  },
+  "F_rubric_5shot_std200": {
+    "content": {
+      "qwk": 0.28,
+      "pearson": 0.449,
+      "mae": 1.024,
+      "pred_mean": 2.19,
+      "pred_std": 0.782,
+      "true_mean": 3.026,
+      "true_std": 1.088
+    },
+    "organization": {
+      "qwk": 0.223,
+      "pearson": 0.386,
+      "mae": 1.093,
+      "pred_mean": 2.013,
+      "pred_std": 0.717,
+      "true_mean": 3.001,
+      "true_std": 1.01
+    },
+    "language": {
+      "qwk": 0.343,
+      "pearson": 0.62,
+      "mae": 0.986,
+      "pred_mean": 1.845,
+      "pred_std": 0.641,
+      "true_mean": 2.785,
+      "true_std": 0.914
+    },
+    "total": {
+      "pearson": 0.53,
+      "mae": 2.955,
+      "pred_mean": 6.048,
+      "pred_std": 2.09,
+      "true_mean": 8.813,
+      "true_std": 2.813
+    }
+  },
+  "F_skill_promptA_std200": {
+    "content": {
+      "qwk": 0.33,
+      "pearson": 0.482,
+      "mae": 0.942,
+      "pred_mean": 2.295,
+      "pred_std": 0.78,
+      "true_mean": 3.026,
+      "true_std": 1.088
+    },
+    "organization": {
+      "qwk": 0.26,
+      "pearson": 0.403,
+      "mae": 1.028,
+      "pred_mean": 2.118,
+      "pred_std": 0.721,
+      "true_mean": 3.001,
+      "true_std": 1.01
+    },
+    "language": {
+      "qwk": 0.36,
+      "pearson": 0.61,
+      "mae": 0.942,
+      "pred_mean": 1.907,
+      "pred_std": 0.648,
+      "true_mean": 2.785,
+      "true_std": 0.914
+    },
+    "total": {
+      "pearson": 0.554,
+      "mae": 2.76,
+      "pred_mean": 6.32,
+      "pred_std": 2.092,
+      "true_mean": 8.813,
+      "true_std": 2.813
+    }
+  },
+  "F_skill_promptA_new228": {
+    "content": {
+      "qwk": 0.229,
+      "pearson": 0.287,
+      "mae": 0.893,
+      "pred_mean": 2.921,
+      "pred_std": 0.907,
+      "true_mean": 3.546,
+      "true_std": 0.86
+    },
+    "organization": {
+      "qwk": 0.193,
+      "pearson": 0.253,
+      "mae": 0.932,
+      "pred_mean": 2.851,
+      "pred_std": 0.847,
+      "true_mean": 3.529,
+      "true_std": 0.88
+    },
+    "language": {
+      "qwk": 0.171,
+      "pearson": 0.272,
+      "mae": 0.86,
+      "pred_mean": 2.564,
+      "pred_std": 0.686,
+      "true_mean": 3.327,
+      "true_std": 0.716
+    },
+    "total": {
+      "pearson": 0.28,
+      "mae": 2.61,
+      "pred_mean": 8.336,
+      "pred_std": 2.394,
+      "true_mean": 10.401,
+      "true_std": 2.31
+    }
+  }
+}

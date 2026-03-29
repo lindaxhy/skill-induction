@@ -1,0 +1,73 @@
+{
+  "researcher": "Yejin Choi",
+  "signal": "E",
+  "mode": "G",
+  "n_induction": 8,
+  "n_eval": 4,
+  "papers": [
+    {
+      "title": "Position: A Roadmap to Pluralistic Alignment",
+      "zero_shot": {
+        "r1_f": 0.5099,
+        "r2_f": 0.1542,
+        "rL_f": 0.2871
+      },
+      "skill_based": {
+        "r1_f": 0.5025,
+        "r2_f": 0.1667,
+        "rL_f": 0.2362
+      }
+    },
+    {
+      "title": "Can Language Models Reason about Individualistic Human Values and Preferences?",
+      "zero_shot": {
+        "r1_f": 0.5211,
+        "r2_f": 0.1646,
+        "rL_f": 0.2283
+      },
+      "skill_based": {
+        "r1_f": 0.5297,
+        "r2_f": 0.1443,
+        "rL_f": 0.2475
+      }
+    },
+    {
+      "title": "Spectrum Tuning: Post-Training for Distributional Coverage and In-Context Steerability",
+      "zero_shot": {
+        "r1_f": 0.4694,
+        "r2_f": 0.1846,
+        "rL_f": 0.2194
+      },
+      "skill_based": {
+        "r1_f": 0.4567,
+        "r2_f": 0.1787,
+        "rL_f": 0.1827
+      }
+    },
+    {
+      "title": "Opt-ICL at LeWiDi-2025: Maximizing In-Context Signal from Rater Examples via Meta-Learning",
+      "zero_shot": {
+        "r1_f": 0.5073,
+        "r2_f": 0.1701,
+        "rL_f": 0.2682
+      },
+      "skill_based": {
+        "r1_f": 0.4775,
+        "r2_f": 0.1525,
+        "rL_f": 0.2247
+      }
+    }
+  ],
+  "summary": {
+    "zero_shot": {
+      "r1": 0.501925,
+      "r2": 0.168375,
+      "rL": 0.25075000000000003
+    },
+    "skill_based": {
+      "r1": 0.4916,
+      "r2": 0.16055,
+      "rL": 0.222775
+    }
+  }
+}

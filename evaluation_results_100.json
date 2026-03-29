@@ -1,0 +1,39 @@
+{
+  "paper_A_zeroshot_100": {
+    "content": {
+      "qwk": 0.164,
+      "pearson": 0.21,
+      "mae": 0.98,
+      "pred_mean": 2.855,
+      "pred_std": 0.884,
+      "true_mean": 3.525,
+      "true_std": 0.923
+    },
+    "organization": {
+      "qwk": 0.114,
+      "pearson": 0.181,
+      "mae": 1.145,
+      "pred_mean": 2.6,
+      "pred_std": 0.822,
+      "true_mean": 3.535,
+      "true_std": 0.917
+    },
+    "language": {
+      "qwk": 0.118,
+      "pearson": 0.22,
+      "mae": 1.08,
+      "pred_mean": 2.365,
+      "pred_std": 0.731,
+      "true_mean": 3.345,
+      "true_std": 0.757
+    },
+    "total": {
+      "pearson": 0.205,
+      "mae": 3.115,
+      "pred_mean": 7.82,
+      "pred_std": 2.391,
+      "true_mean": 10.405,
+      "true_std": 2.462
+    }
+  }
+}

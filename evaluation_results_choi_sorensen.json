@@ -1,0 +1,81 @@
+{
+  "authors": "Yejin Choi and Taylor Sorensen",
+  "signal": "E",
+  "mode": "G",
+  "validation": "LOO",
+  "n_folds": 4,
+  "folds": [
+    {
+      "fold": 0,
+      "eval_id": "2402.05070",
+      "title": "Position: A Roadmap to Pluralistic Alignment",
+      "zero_shot": {
+        "rouge1": 0.4732,
+        "rouge2": 0.1275,
+        "rougeL": 0.2537
+      },
+      "skill_based": {
+        "rouge1": 0.4657,
+        "rouge2": 0.1429,
+        "rougeL": 0.2598
+      }
+    },
+    {
+      "fold": 1,
+      "eval_id": "2410.03868",
+      "title": "Can Language Models Reason about Individualistic Human Values and Preferences?",
+      "zero_shot": {
+        "rouge1": 0.5415,
+        "rouge2": 0.1275,
+        "rougeL": 0.239
+      },
+      "skill_based": {
+        "rouge1": 0.5271,
+        "rouge2": 0.156,
+        "rougeL": 0.2588
+      }
+    },
+    {
+      "fold": 2,
+      "eval_id": "2510.06084",
+      "title": "Spectrum Tuning: Post-Training for Distributional Coverage and In-Context Steerability",
+      "zero_shot": {
+        "rouge1": 0.539,
+        "rouge2": 0.2228,
+        "rougeL": 0.2569
+      },
+      "skill_based": {
+        "rouge1": 0.5083,
+        "rouge2": 0.1909,
+        "rougeL": 0.2423
+      }
+    },
+    {
+      "fold": 3,
+      "eval_id": "2510.07105",
+      "title": "Opt-ICL at LeWiDi-2025: Maximizing In-Context Signal from Rater Examples via Meta-Learning",
+      "zero_shot": {
+        "rouge1": 0.5622,
+        "rouge2": 0.1685,
+        "rougeL": 0.2541
+      },
+      "skill_based": {
+        "rouge1": 0.4293,
+        "rouge2": 0.1366,
+        "rougeL": 0.1957
+      }
+    }
+  ],
+  "summary": {
+    "zero_shot": {
+      "rouge1": 0.528975,
+      "rouge2": 0.161575,
+      "rougeL": 0.250925
+    },
+    "skill_based": {
+      "rouge1": 0.48260000000000003,
+      "rouge2": 0.1566,
+      "rougeL": 0.23914999999999997
+    }
+  }
+}

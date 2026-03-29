@@ -1,0 +1,4 @@
+.env
+__pycache__/
+*.pyc
+data/arxiv_pdfs/
